@@ -8,7 +8,7 @@ function init() {
     if (message === "") {
       alert("Please enter a message!");
     } else {
-      alert("Jason Guan: " + message);
+      alert("Ethan Lam: " + message);
       output.textContent = message;
     }
   });
