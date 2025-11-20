@@ -153,3 +153,82 @@ strong {
   width: 100%;
   height: 500px;
 }
+body {
+    background-color: #f7f9fb;
+    margin: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Header Navigation */
+header {
+    background-color: #f0f3f7;
+    border-bottom: 1px solid #dcdfe4;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    background-color: #0078d7;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* Main Content Area */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Question Button */
+#questionButton {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#questionButton:hover {
+    background-color: #005fa3;
+}
+
+/* Google Map Container */
+#map {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid #d7dce1;
+}
+
+/* Give the map container spacing from the page */
+main #map {
+    margin-top: 20px;
+}
