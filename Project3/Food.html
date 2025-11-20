@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Food</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* ---------- VIDEO STYLING ---------- */
+    #center {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #center iframe {
+        width: 100%;
+        max-width: 600px;
+        aspect-ratio: 16 / 9;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        border: 1px solid #d7dce1;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,12 +37,13 @@
         <li><a href="index.html">Homepage</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="Food.html" class="active">Food</a></li>
-        <li><a href="googlemapsapi.html" class="active">Google Maps</a></li>
+        <li><a href="googlemapsapi.html">Google Maps</a></li>
       </ul>
     </nav>
 
     <div id="content-wrapper">
       <div id="main-content">
+
         <ul>
           <li>Cheeseburger</li>
           <li>Sushi</li>
@@ -53,6 +70,7 @@
         <img src="images/cheeseburger.jfif" alt="Cheeseburger" class="image-r">
 
         <h2><strong>Top 5 Foods in Chicago:</strong></h2>
+
         <div id="center">
           <iframe width="400" height="300"
                   src="https://www.youtube.com/embed/WEK0hng8kFY"
@@ -62,13 +80,14 @@
                   allowfullscreen>
           </iframe>
         </div>
+
       </div>
+
       <aside id="side-content">
         <h3>Other Pages</h3>
         <ul>
           <li><a href="index.html">Home Page</a></li>
           <li><a href="resume.html">My Resume</a></li>
-          <li><a href="googlemapsapi.html">Google Maps</a></li>
         </ul>
       </aside>
     </div>
