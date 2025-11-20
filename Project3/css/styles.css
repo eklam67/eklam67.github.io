@@ -233,7 +233,7 @@ main #map {
     margin-top: 20px;
 }
 
-#center iframe {
+#center-iframe {
     width: 100%;
     max-width: 600px;
     aspect-ratio: 16 / 9;
